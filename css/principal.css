@@ -141,3 +141,21 @@ header {
     text-decoration: none;
     padding: 10px 10px;
 }
+
+/* Rodapé
+-----------------------------*/
+footer{
+    height: 80px;
+    background: #DD0A0D;
+}
+
+footer p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: unset;
+    color: white;
+    padding-top: 30px;
+    margin-top: 20px;
+}
