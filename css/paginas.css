@@ -1,0 +1,254 @@
+/* Estrutura CSS
+--------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E3DDDD;
+    font-family: 'Poppins', sans-serif;
+    /*background-image: linear-gradient(darkgreen,#F4F2F2);*/
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Cabeçalho CSS
+--------------------------- */
+
+header {
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    height: 150px;
+    display: block;
+}
+
+.logo {
+    font-style: normal;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    padding: 49px;
+    text-transform: uppercase;
+    /*background-color: #0B610B;*/
+}
+
+.logo a {
+    color: #EA1114;
+    /*background-color: #0B610B;*/
+}
+
+/* Menu CSS
+--------------------------- */
+
+.navigation {
+    background-color: #DD0A0D;
+    border-radius: 5px;
+    max-width: 1170px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    width: 1250px;
+    margin: 0 10px;
+}
+
+.navigation a {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #000;
+}
+
+/*PRODUTO
+--------------------------- */
+.produto {
+  width: 1170px;
+  height: 420px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.centro {
+  display: flex;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.imagem img {
+  padding-right: 15px;
+  width: 100%px;
+}
+
+.texto{
+  margin-top: 0px;
+  background-color: #E3DDDD;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.desc {
+  
+}
+
+.desc h1 {
+  font-size: 25px;
+}
+
+.desc h2{
+  margin-top: 10px;
+  font-size: 35px;
+  color: #DD0A0D;
+}
+
+.pdesc {
+  color: #a71414;
+}
+
+button {
+  margin-top: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #EA1114;
+  padding: 15px 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #a71414;
+  cursor: pointer;
+  outline: none;
+}
+
+button a{
+  font-size: 15px;
+  color: #E3DDDD;
+}
+
+
+
+/* Rodapé
+-----------------------------*/
+footer {
+    height: 80px;
+    background: #DD0A0D;
+}
+
+footer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: unset;
+    color: white;
+    padding-top: 30px;
+    margin-top: 3px;
+}
+
+/* Slideshow container
+--------------------------- */
+.slideshow-container {
+    max-width: 1170px;
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides {display: none}
+
+  .mySlides img {
+    margin-top: 2px;
+    border-radius: 5px;
+}
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #DD0A0D;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #DD0A0D;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #000000;
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
