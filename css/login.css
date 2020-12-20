@@ -154,6 +154,12 @@ a{
 	font-size: 0.9rem;
 	transition: .3s;
 }
+/*
+a.outro {
+    text-align: left;
+    color: blue;
+}
+*/
 
 a:hover{
 	color: #EA1114;
